@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '@anchor/create-nextjs-react-app@latest',
+1 verbose cli   '--global',
+1 verbose cli   '--prefix',
+1 verbose cli   'C:\\Users\\MMD5CG125CWTH\\Desktop\\work\\Project\\npmcache\\_npx\\15856',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--json'
+1 verbose cli ]
+2 info using npm@6.14.12
+3 info using node@v14.16.1
+4 verbose npm-session cf2e9b9d07af43b8
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 401 https://tools-nexus.maerskdev.net/repository/npm-group-internal/@anchor%2fcreate-nextjs-react-app 693ms
+8 silly fetchPackageMetaData error for @anchor/create-nextjs-react-app@latest Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
+9 timing stage:rollbackFailedOptional Completed in 0ms
+10 timing stage:runTopLevelLifecycles Completed in 711ms
+11 verbose stack Error: Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
+11 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:107:17
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+12 verbose statusCode 401
+13 verbose pkgid @anchor/create-nextjs-react-app@latest
+14 verbose cwd C:\Users\MMD5CG125CWTH\Desktop\work\Project
+15 verbose Windows_NT 10.0.19043
+16 verbose argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "@anchor/create-nextjs-react-app@latest" "--global" "--prefix" "C:\\Users\\MMD5CG125CWTH\\Desktop\\work\\Project\\npmcache\\_npx\\15856" "--loglevel" "error" "--json"
+17 verbose node v14.16.1
+18 verbose npm  v6.14.12
+19 error code E401
+20 error Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
+21 verbose exit [ 1, true ]
