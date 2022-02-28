@@ -1,0 +1,81 @@
+# npm resolution error report
+
+2022-02-20T15:05:53.443Z
+
+While resolving: satyam@0.0.0
+Found: styled-components@5.3.3
+node_modules/styled-components
+  styled-components@"5.3.3" from the root project
+
+Could not resolve dependency:
+peer styled-components@"^3.3.2" from animate-css-styled-components@1.0.2
+node_modules/animate-css-styled-components
+  animate-css-styled-components@"^1.0.2" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "styled-components",
+    "version": "5.3.3",
+    "whileInstalling": {
+      "name": "satyam",
+      "version": "0.0.0",
+      "path": "C:\\Users\\SSR194\\My_Project\\feature_request\\satyam"
+    },
+    "location": "node_modules/styled-components",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "styled-components",
+        "spec": "5.3.3",
+        "from": {
+          "location": "C:\\Users\\SSR194\\My_Project\\feature_request\\satyam"
+        }
+      }
+    ]
+  },
+  "currentEdge": {
+    "type": "prod",
+    "name": "styled-components",
+    "spec": "5.3.3",
+    "from": {
+      "location": "C:\\Users\\SSR194\\My_Project\\feature_request\\satyam"
+    }
+  },
+  "edge": {
+    "type": "peer",
+    "name": "styled-components",
+    "spec": "^3.3.2",
+    "error": "INVALID",
+    "from": {
+      "name": "animate-css-styled-components",
+      "version": "1.0.2",
+      "whileInstalling": {
+        "name": "satyam",
+        "version": "0.0.0",
+        "path": "C:\\Users\\SSR194\\My_Project\\feature_request\\satyam"
+      },
+      "location": "node_modules/animate-css-styled-components",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "animate-css-styled-components",
+          "spec": "^1.0.2",
+          "from": {
+            "location": "C:\\Users\\SSR194\\My_Project\\feature_request\\satyam"
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false
+}

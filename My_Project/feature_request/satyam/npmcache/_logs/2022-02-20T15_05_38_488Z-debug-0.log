@@ -1,0 +1,98 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\SSR194\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install',
+0 verbose cli   '-D',
+0 verbose cli   'tailwindcss',
+0 verbose cli   'postcss',
+0 verbose cli   'autoprefixer'
+0 verbose cli ]
+1 info using npm@8.4.1
+2 info using node@v16.14.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 8ms
+6 timing config:load:builtin Completed in 8ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\SSR194\My_Project\feature_request\satyam\.npmrc Completed in 2ms
+10 timing config:load:project Completed in 6ms
+11 timing config:load:file:C:\Users\SSR194\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:C:\Users\SSR194\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 3ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 28ms
+19 timing npm:load:configload Completed in 28ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 5ms
+22 timing npm:load:display Completed in 6ms
+23 verbose logfile C:\Users\SSR194\My_Project\feature_request\satyam\npmcache\_logs\2022-02-20T15_05_38_488Z-debug-0.log
+24 timing npm:load:logFile Completed in 12ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 50ms
+28 timing arborist:ctor Completed in 0ms
+29 timing idealTree:init Completed in 781ms
+30 timing idealTree:userRequests Completed in 7ms
+31 silly idealTree buildDeps
+32 silly fetch manifest @reduxjs/toolkit@^1.7.2
+33 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/@reduxjs%2ftoolkit 2508ms (cache miss)
+34 silly fetch manifest react@17.0.2
+35 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react 2268ms (cache updated)
+36 silly fetch manifest react-redux@^7.2.6
+37 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-redux 3085ms (cache updated)
+38 silly fetch manifest animate-css-styled-components@^1.0.2
+39 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/animate-css-styled-components 2459ms (cache miss)
+40 silly fetch manifest styled-components@5.3.3
+41 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/styled-components 47ms (cache hit)
+42 silly fetch manifest styled-components@^3.3.2
+43 silly fetch manifest react-dom@17.0.2
+44 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-dom 1596ms (cache updated)
+45 silly fetch manifest react-is@>= 16.8.0
+46 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-is 1192ms (cache revalidated)
+47 timing idealTree Completed in 14061ms
+48 timing command:install Completed in 14077ms
+49 verbose stack Error: unable to resolve dependency tree
+49 verbose stack     at Arborist.[failPeerConflict] (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1383:25)
+49 verbose stack     at Arborist.[loadPeerSet] (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1349:34)
+49 verbose stack     at async Arborist.[buildDepStep] (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:951:11)
+49 verbose stack     at async Arborist.buildIdealTree (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:215:7)
+49 verbose stack     at async Promise.all (index 1)
+49 verbose stack     at async Arborist.reify (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:152:5)
+49 verbose stack     at async Install.exec (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:157:5)
+49 verbose stack     at async module.exports (C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\lib\cli.js:66:5)
+50 verbose cwd C:\Users\SSR194\My_Project\feature_request\satyam
+51 verbose Windows_NT 10.0.19043
+52 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\SSR194\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-D" "tailwindcss" "postcss" "autoprefixer"
+53 verbose node v16.14.0
+54 verbose npm  v8.4.1
+55 error code ERESOLVE
+56 error ERESOLVE unable to resolve dependency tree
+57 error
+58 error While resolving: [1msatyam[22m@[1m0.0.0[22m
+58 error Found: [1mstyled-components[22m@[1m5.3.3[22m[2m[22m
+58 error [2mnode_modules/styled-components[22m
+58 error   [1mstyled-components[22m@"[1m5.3.3[22m" from the root project
+58 error
+58 error Could not resolve dependency:
+58 error [35mpeer[39m [1mstyled-components[22m@"[1m^3.3.2[22m" from [1manimate-css-styled-components[22m@[1m1.0.2[22m[2m[22m
+58 error [2mnode_modules/animate-css-styled-components[22m
+58 error   [1manimate-css-styled-components[22m@"[1m^1.0.2[22m" from the root project
+58 error
+58 error Fix the upstream dependency conflict, or retry
+58 error this command with --force, or --legacy-peer-deps
+58 error to accept an incorrect (and potentially broken) dependency resolution.
+58 error
+58 error See C:\Users\SSR194\My_Project\feature_request\satyam\npmcache\eresolve-report.txt for a full report.
+59 verbose exit 1
+60 timing npm Completed in 14980ms
+61 verbose unfinished npm timer reify 1645369539355
+62 verbose unfinished npm timer reify:loadTrees 1645369539367
+63 verbose unfinished npm timer idealTree:buildDeps 1645369540159
+64 verbose unfinished npm timer idealTree:#root 1645369540159
+65 verbose code 1
+66 error A complete log of this run can be found in:
+66 error     C:\Users\SSR194\My_Project\feature_request\satyam\npmcache\_logs\2022-02-20T15_05_38_488Z-debug-0.log

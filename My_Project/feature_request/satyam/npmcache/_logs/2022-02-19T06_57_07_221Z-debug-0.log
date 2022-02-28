@@ -1,0 +1,119 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\SSR194\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'uninstall',
+0 verbose cli   'redux',
+0 verbose cli   '--save-dev'
+0 verbose cli ]
+1 info using npm@8.4.1
+2 info using node@v16.14.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\SSR194\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\SSR194\My_Project\feature_request\satyam\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\SSR194\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\SSR194\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 2ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 17ms
+19 timing npm:load:configload Completed in 17ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 2ms
+22 timing npm:load:display Completed in 5ms
+23 verbose logfile C:\Users\SSR194\My_Project\feature_request\satyam\npmcache\_logs\2022-02-19T06_57_07_221Z-debug-0.log
+24 timing npm:load:logFile Completed in 9ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 32ms
+28 timing arborist:ctor Completed in 0ms
+29 timing idealTree:init Completed in 625ms
+30 timing idealTree:userRequests Completed in 4ms
+31 silly idealTree buildDeps
+32 silly fetch manifest feather-route-matcher@^4.0.0
+33 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/feather-route-matcher 2585ms (cache miss)
+34 silly fetch manifest nodemon@^2.0.15
+35 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/nodemon 2142ms (cache miss)
+36 silly fetch manifest react-icons@^4.3.1
+37 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-icons 3217ms (cache miss)
+38 silly fetch manifest react@17.0.2
+39 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react 9883ms (cache miss)
+40 silly fetch manifest react-redux@^7.2.6
+41 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-redux 1647ms (cache miss)
+42 silly fetch manifest styled-components@5.3.3
+43 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/styled-components 4204ms (cache miss)
+44 silly fetch manifest react-dom@17.0.2
+45 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-dom 3527ms (cache miss)
+46 silly fetch manifest react-is@>= 16.8.0
+47 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/react-is 3187ms (cache miss)
+48 silly placeDep ROOT feather-route-matcher@4.0.0 OK for: satyam@0.0.0 want: ^4.0.0
+49 silly placeDep ROOT nodemon@2.0.15 OK for: satyam@0.0.0 want: ^2.0.15
+50 silly placeDep ROOT react-icons@4.3.1 OK for: satyam@0.0.0 want: ^4.3.1
+51 silly placeDep ROOT react-redux@7.2.6 OK for: satyam@0.0.0 want: ^7.2.6
+52 silly placeDep ROOT styled-components@5.3.3 OK for: satyam@0.0.0 want: 5.3.3
+53 silly fetch manifest chokidar@^3.5.2
+54 silly fetch manifest debug@^3.2.7
+55 silly fetch manifest ignore-by-default@^1.0.1
+56 silly fetch manifest pstree.remy@^1.1.8
+57 silly fetch manifest semver@^5.7.1
+58 silly fetch manifest supports-color@^5.5.0
+59 silly fetch manifest touch@^3.1.0
+60 silly fetch manifest undefsafe@^2.0.5
+61 silly fetch manifest update-notifier@^5.1.0
+62 silly fetch manifest @types/react-redux@^7.1.20
+63 silly fetch manifest hoist-non-react-statics@^3.3.2
+64 silly fetch manifest @emotion/is-prop-valid@^0.8.8
+65 silly fetch manifest @emotion/stylis@^0.8.4
+66 silly fetch manifest @emotion/unitless@^0.7.4
+67 silly fetch manifest babel-plugin-styled-components@>= 1.12.0
+68 silly fetch manifest css-to-react-native@^3.0.0
+69 silly fetch manifest hoist-non-react-statics@^3.0.0
+70 silly fetch manifest shallowequal@^1.1.0
+71 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/touch 775ms (cache miss)
+72 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/ignore-by-default 868ms (cache miss)
+73 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/chokidar 1011ms (cache miss)
+74 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/undefsafe 1036ms (cache miss)
+75 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/pstree.remy 1134ms (cache miss)
+76 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/@emotion%2fstylis 1242ms (cache miss)
+77 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/shallowequal 1276ms (cache miss)
+78 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/hoist-non-react-statics 1282ms (cache miss)
+79 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/@emotion%2fis-prop-valid 1305ms (cache miss)
+80 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/@emotion%2funitless 1326ms (cache miss)
+81 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/css-to-react-native 1378ms (cache miss)
+82 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/semver 1542ms (cache miss)
+83 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/supports-color 1548ms (cache miss)
+84 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/@types%2freact-redux 1648ms (cache miss)
+85 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/debug 1799ms (cache miss)
+86 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/update-notifier 2251ms (cache miss)
+87 http fetch GET 200 https://tools-nexus.maerskdev.net/repository/npm-group-internal/babel-plugin-styled-components 4669ms (cache miss)
+88 timing idealTree:#root Completed in 35188ms
+89 timing idealTree:node_modules/feather-route-matcher Completed in 0ms
+90 silly placeDep node_modules/nodemon chokidar@3.5.3 OK for: nodemon@2.0.15 want: ^3.5.2
+91 silly placeDep node_modules/nodemon debug@3.2.7 OK for: nodemon@2.0.15 want: ^3.2.7
+92 silly placeDep ROOT ignore-by-default@1.0.1 OK for: nodemon@2.0.15 want: ^1.0.1
+93 silly placeDep ROOT pstree.remy@1.1.8 OK for: nodemon@2.0.15 want: ^1.1.8
+94 silly placeDep node_modules/nodemon semver@5.7.1 OK for: nodemon@2.0.15 want: ^5.7.1
+95 silly placeDep node_modules/nodemon supports-color@5.5.0 OK for: nodemon@2.0.15 want: ^5.5.0
+96 silly placeDep ROOT touch@3.1.0 OK for: nodemon@2.0.15 want: ^3.1.0
+97 silly placeDep ROOT undefsafe@2.0.5 OK for: nodemon@2.0.15 want: ^2.0.5
+98 silly placeDep ROOT update-notifier@5.1.0 OK for: nodemon@2.0.15 want: ^5.1.0
+99 silly fetch manifest readdirp@~3.6.0
+100 silly fetch manifest fsevents@~2.3.2
+101 silly fetch manifest has-flag@^3.0.0
+102 silly fetch manifest nopt@~1.0.10
+103 silly fetch manifest boxen@^5.0.0
+104 silly fetch manifest configstore@^5.0.1
+105 silly fetch manifest has-yarn@^2.1.0
+106 silly fetch manifest import-lazy@^2.1.0
+107 silly fetch manifest is-ci@^2.0.0
+108 silly fetch manifest is-npm@^5.0.0
+109 silly fetch manifest is-yarn-global@^0.3.0
+110 silly fetch manifest latest-version@^5.1.0
+111 silly fetch manifest pupa@^2.1.1
+112 silly fetch manifest xdg-basedir@^4.0.0

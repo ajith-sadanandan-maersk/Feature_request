@@ -1,0 +1,58 @@
+/* // import styled from "styled-components";
+
+// export const FooterStyled = styled.nav`
+//         backgroundColor: #42b0d5,
+//         width: 100%,
+//         height: 100px,
+//         color: white,
+//         textAlign: center,
+//         display: flex,
+//         justifyContent: center,
+//         alignItems: center,
+//         fontSize: 24px,
+//         bottom: 0,
+//         position: absolute
+// `; */
+
+
+.footer {
+        color: black;
+        background-color: #f8f9fa;
+        padding-top: 4em;
+        position: relative;
+        bottom:0px;
+        width: 100%;
+        text-decoration: none;
+      }
+    
+    .footerdetails {
+        color: black;
+        background-color: #f8f9fa;
+        /* padding-top: 1em; */
+        position: relative;
+        
+        width: 100%;
+        text-decoration: none;
+      }
+    .footerdetails2 {
+        color: black;
+        background-color: #f8f9fa;
+        /* padding-top: 1em; */
+        /* padding-bottom: 0.1em; */
+        position: absolute;
+        bottom: 0;
+    
+        
+        width: 100%;
+        text-decoration: none;
+      }
+    
+    .textreset:link {
+        color: black;
+        text-decoration: none;
+      }
+    .textreset:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      
